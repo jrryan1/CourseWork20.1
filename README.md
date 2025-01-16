@@ -20,6 +20,7 @@ Successful games are generally defined by high consumer ratings.  Per ReviewTrac
 In this dataset, we do not have the star rating overtime so focused on a range of 3.8 to 5 assuming that these numbers indicated the product was within the "good range" for a significant period of time. 
 
 (1) https://www.reviewtrackers.com/blog/5-star-rating/#:~:text=Most%20people%20think%20it's%20too,star%20rating%20for%20purchase%20probability.
+
 (2) https://www.meetyogi.com/post/what-makes-a-good-star-rating-for-products-in-different-industries
 
 Models were trained on the training set and validated with the test set. Additionally, RandomizedSearchCV was used to evaluate models using accuracy score, and fine tuned each model's hyperparameters to maximize this metric.  Accuracy is suitable because we have a balanced dataset and measures the proportion of correctly predicted observations out of total observations. It is calculated as (True Positive count + True Negative count) / (Total count), or
@@ -51,7 +52,7 @@ Currently this data was pulled from a single review source: [Backloggd](https://
 
 #### Outline of project
 
-- [Gaming Analysis]()
+- [Gaming Analysis](https://github.com/jrryan1/CourseWork20.1/tree/main)
 
 
 ##### Contact and Further Information
